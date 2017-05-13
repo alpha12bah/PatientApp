@@ -82,6 +82,7 @@
     <Content Include="admin.aspx" />
     <Content Include="adm_apt.aspx" />
     <Content Include="adm_pat.aspx" />
+    <Content Include="appointment.aspx" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\full-width-pics.css" />
@@ -126,6 +127,13 @@
     </Compile>
     <Compile Include="adm_pat.aspx.designer.cs">
       <DependentUpon>adm_pat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="appointment.aspx.cs">
+      <DependentUpon>appointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="appointment.aspx.designer.cs">
+      <DependentUpon>appointment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
