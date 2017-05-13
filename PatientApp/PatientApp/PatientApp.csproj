@@ -84,6 +84,9 @@
     <Content Include="Content\css\full-width-pics.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="login.aspx" />
+    <Content Include="patient.aspx" />
+    <Content Include="pat_apt.aspx" />
+    <Content Include="pat_req.aspx" />
     <Content Include="register.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
@@ -99,6 +102,27 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="patient.aspx.cs">
+      <DependentUpon>patient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="patient.aspx.designer.cs">
+      <DependentUpon>patient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pat_apt.aspx.cs">
+      <DependentUpon>pat_apt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pat_apt.aspx.designer.cs">
+      <DependentUpon>pat_apt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pat_req.aspx.cs">
+      <DependentUpon>pat_req.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pat_req.aspx.designer.cs">
+      <DependentUpon>pat_req.aspx</DependentUpon>
     </Compile>
     <Compile Include="Postlogin.Master.cs">
       <DependentUpon>Postlogin.Master</DependentUpon>
