@@ -83,6 +83,7 @@
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\full-width-pics.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="login.aspx" />
     <Content Include="register.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
@@ -92,6 +93,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Postlogin.Master.cs">
       <DependentUpon>Postlogin.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
