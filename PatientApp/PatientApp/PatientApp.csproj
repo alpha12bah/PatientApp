@@ -83,6 +83,7 @@
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\full-width-pics.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Default.aspx" />
     <Content Include="login.aspx" />
     <Content Include="patient.aspx" />
     <Content Include="pat_apt.aspx" />
@@ -96,6 +97,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
