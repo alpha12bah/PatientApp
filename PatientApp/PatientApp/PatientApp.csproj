@@ -84,6 +84,12 @@
     <Content Include="Content\css\full-width-pics.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Default.aspx" />
+    <Content Include="docs.aspx" />
+    <Content Include="doctor.aspx" />
+    <Content Include="doctors.aspx" />
+    <Content Include="doc_apt.aspx" />
+    <Content Include="doc_reqs.aspx" />
+    <Content Include="doc_waits.aspx" />
     <Content Include="login.aspx" />
     <Content Include="patient.aspx" />
     <Content Include="pat_apt.aspx" />
@@ -103,6 +109,48 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="docs.aspx.cs">
+      <DependentUpon>docs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="docs.aspx.designer.cs">
+      <DependentUpon>docs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="doctor.aspx.cs">
+      <DependentUpon>doctor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="doctor.aspx.designer.cs">
+      <DependentUpon>doctor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="doctors.aspx.cs">
+      <DependentUpon>doctors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="doctors.aspx.designer.cs">
+      <DependentUpon>doctors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="doc_apt.aspx.cs">
+      <DependentUpon>doc_apt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="doc_apt.aspx.designer.cs">
+      <DependentUpon>doc_apt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="doc_reqs.aspx.cs">
+      <DependentUpon>doc_reqs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="doc_reqs.aspx.designer.cs">
+      <DependentUpon>doc_reqs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="doc_waits.aspx.cs">
+      <DependentUpon>doc_waits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="doc_waits.aspx.designer.cs">
+      <DependentUpon>doc_waits.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
