@@ -69,6 +69,8 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Postlogin.Master" />
+    <Content Include="Prelogin.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -89,6 +91,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Postlogin.Master.cs">
+      <DependentUpon>Postlogin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Postlogin.Master.designer.cs">
+      <DependentUpon>Postlogin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Prelogin.Master.cs">
+      <DependentUpon>Prelogin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prelogin.Master.designer.cs">
+      <DependentUpon>Prelogin.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
